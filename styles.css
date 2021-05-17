@@ -35,3 +35,11 @@ padding-right: 1rem;
  border: 1px solid #7C3AED;
  color: black;
 }
+.list-non-bullet{
+    list-style: none;
+
+}
+.list-item-inline{
+    display: inline;
+    padding: 0.5rem 1rem;
+}
