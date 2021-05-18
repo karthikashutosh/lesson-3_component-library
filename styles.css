@@ -19,10 +19,13 @@ padding-right: 1rem;
     margin: auto;
 
 }
+hr{
+    margin: 2rem 0rem;
+}
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
-
+    
 }
 
 .link-primary{
