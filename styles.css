@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 
 body{
     font-family: 'Montserrat', sans-serif;
 }
-
-h1{
-    font-family: 'Dancing Script', cursive;
+:root{
+--primary-color:#7C3AED;
+--dark-grey:#9CA3AF
 }
+
+
 .container{
 padding-left: 1rem;
 padding-right: 1rem;
@@ -29,13 +30,13 @@ hr{
 }
 
 .link-primary{
-    background-color: #7C3AED;
+    background-color:var(--primary-color);
     border-radius: 0.5rem;
     color: white;
 }
 .link-secondary{
  border-radius: 0.5rem;
- border: 1px solid #7C3AED;
+ border: 1px solid var(var(--primary-color));
  color: black;
 }
 .list-non-bullet{
@@ -47,7 +48,7 @@ hr{
     padding: 0.5rem 1rem;
 }
 .navigation{
-    background-color:#7C3AED;
+    background-color:var(--primary-color);
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
@@ -63,4 +64,20 @@ hr{
 }
 .navigation .link-active{
     font-weight: bold;
+}
+.hero{
+    padding: 2rem;
+}
+.hero .hero-img{
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+.hero .hero-heading .inverted{
+    color: var(--primary-color);
 }
