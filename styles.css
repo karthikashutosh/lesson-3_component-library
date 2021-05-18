@@ -46,3 +46,16 @@ hr{
     display: inline;
     padding: 0.5rem 1rem;
 }
+.navigation{
+    background-color:#7C3AED;
+    color: white;
+}
+.navigation .link{
+    color: white;
+}
+ .navigation .nav-bills{
+    text-align: right;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+}
