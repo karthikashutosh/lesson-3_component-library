@@ -116,3 +116,12 @@ hr{
     font-weight: bold;
     font-size: large;
 }
+
+.showcase-project {
+    padding: 1.5rem;
+}
+
+
+.showcase-blog {
+    padding-bottom: 3rem;
+}
