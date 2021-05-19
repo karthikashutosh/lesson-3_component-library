@@ -82,11 +82,13 @@ hr{
 .hero .hero-heading .inverted{
     color: var(--primary-color);
 }
-.section h1{
-    text-align: center;
+.section{
     padding: 2rem;
 }
-.ow{
-
-background-color:var(--off-white) ;
+.section h1{
+    text-align: center;
+    
 }
+ .ow{
+     background-color: var(--off-white);
+ }
