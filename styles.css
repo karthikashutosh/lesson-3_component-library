@@ -64,7 +64,7 @@ hr{
  .navigation .nav-bills{
     text-align: right;
 }
-.navigation .nav-brand{
+.navigation container .nav-brand{
     font-weight: bold;
     display: flex;
     flex-direction: row;
