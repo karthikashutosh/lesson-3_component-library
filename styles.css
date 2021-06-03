@@ -51,6 +51,8 @@ hr{
     padding: 0.5rem 1rem;
 }
 .navigation{
+    display: flex;
+    flex-direction:row-reverse;
     background-color:var(--primary-color);
     color: white;
     padding: 1rem;
@@ -64,6 +66,8 @@ hr{
 }
 .navigation .nav-brand{
     font-weight: bold;
+    display: flex;
+    flex-direction: row;
 }
 .navigation .link-active{
     font-weight: bold;
@@ -123,5 +127,5 @@ hr{
 
 
 .showcase-blog {
-    padding-bottom: 3rem;
+    padding-bottom: rem;
 }
