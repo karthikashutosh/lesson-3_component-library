@@ -129,8 +129,4 @@ hr{
 .showcase-blog {
     padding-bottom: rem;
 }
-.showcase-list .container .container-center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
