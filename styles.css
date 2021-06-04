@@ -3,13 +3,24 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    
+        color: #222;
+        background: #fff;
+
 }
 :root{
 --primary-color:#7C3AED;
 --dark-gray: #6B7280;
 --off-white: #F3F4F6;}
 
-
+.dark-mode{
+    color: #eee;
+    background: #121212;
+}
+.btn-dark{
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
 .container{
 padding-left: 1rem;
 padding-right: 1rem;

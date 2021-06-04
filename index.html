@@ -11,6 +11,7 @@
 <body>
     <nav class="navigation container">
         <ul class="list-non-bullet nav-pills">
+          <button class="btn-dark">DarkMode</button>
           <li class="list-item-inline"><a class="link link-active" href="/">Home</a></li>
           <li class="list-item-inline"><a class="link" href="/projects.html">Projects</a></li>
           <li class="list-item-inline"><a class="link" href="/blogs.html">Blogs</a>
@@ -55,5 +56,11 @@
           </ul>
       </footer>
   
+      <script>
+        const btn = document.querySelector(".btn-dark");
+        btn.addEventListener("click",()=>{
+document.body.classList.toggle("dark-mode");
+        });
+      </script>
 </body>
 </html>
